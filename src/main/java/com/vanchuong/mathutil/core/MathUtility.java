@@ -14,10 +14,14 @@ public class MathUtility {
             // quăng exception và dùng hàm
             throw new IllegalArgumentException("n must be between 0 and 20");
         }
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+//        long result = 1;
+//        for (int i = 1; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
+        if (n == 0) {
+            return 1;
         }
-        return result;
+        return n * getFactorial(n - 1);
     }
 }
