@@ -1,3 +1,5 @@
+[![Math Utility Project (CI included) | © 2025 by văn.chương](https://github.com/vanchuong2805/mathutil-fa25/actions/workflows/maven.yml/badge.svg)](https://github.com/vanchuong2805/mathutil-fa25/actions/workflows/maven.yml)
+
 # Welcome to Math Utility Project
 
 ### You will find in this repo the following stuff:
