@@ -9,7 +9,7 @@ class MathUtilityDDTTest {
     // CHUẨN BỊ BỘ DATA ĐỂ RIÊNG SAU ĐÓ FILL VÀO
     //  MẢNG 2 CHIỀU [EXPECTED VALUE, N]
     public static Object[][] initData() {
-        Object[][] dataset = {{5, 120}, {6, 720}, {4, 24}, {3, 6}, {1, 1}, {0, 1}};
+        Object[][] dataset = {{5, 120}, {6, 720}, {4, 24}, {3, 6}, {1, 1}, {0, 5}};
         return dataset;
     }
     @ParameterizedTest
